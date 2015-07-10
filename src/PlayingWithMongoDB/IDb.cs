@@ -3,7 +3,7 @@ using MongoDB.Driver;
 
 namespace PlayingWithMongoDB
 {
-    public interface IDb<T> where T : IEntity
+    public interface IDb<T> where T : Entity
     {
         IMongoCollection<T> Collection { get; }
         Task<T> GetById(string id);

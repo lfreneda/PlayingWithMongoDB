@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MongoConfiguration.cs" />
     <Compile Include="Extensions\IDbExtensions.cs" />
     <Compile Include="IEntity.cs" />
     <Compile Include="IDb.cs" />

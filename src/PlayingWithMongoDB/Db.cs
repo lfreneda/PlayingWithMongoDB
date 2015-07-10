@@ -5,7 +5,7 @@ using PlayingWithMongoDB.Extensions;
 
 namespace PlayingWithMongoDB
 {
-    public class Db<T> : IDb<T> where T : IEntity
+    public class Db<T> : IDb<T> where T : Entity
     {
         private readonly IMongoCollection<T> _collection;
         private readonly IMongoDatabase _database;
